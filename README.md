@@ -12,12 +12,15 @@ Usefull for any shop to update stock information on enter shop area (detection z
 * Show item name plus price plus stock amount on one display
 * Show batch information if item is sold as one
 * Show special information headline, like "Black Friday", for your offer
-
-![Normal](/media/Normal.png)
-
-![Lua 1](/media/Batch.png)
-
-![Lua 1](/media/Special.png)
+<p align="center">
+  <img src="/media/Normal.png">
+</p>
+<p align="center">
+  <img src="/media/Batch.png">
+</p>
+<p align="center">
+  <img src="/media/Special.png">
+</p>
 <br/><br/>
 
 ## Prerequisite
@@ -66,6 +69,9 @@ Nevertheless, it is recommanded to connect 1 screen and 1 container after anothe
 1. Define up to 5 items you want to sell in the "items" array by the given schema
 1. Then you finished, do not forget set press "APPLY" to confirm changes.
 1. Activate the programming board and check if information correctly displayed. IF NOT, check LUA console for issue hints.
+<p align="center">
+  <img src="/media/Item.png">
+</p>
 <br/><br/>
 
 **Item Schema** 
