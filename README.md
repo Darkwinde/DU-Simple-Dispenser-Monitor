@@ -1,5 +1,6 @@
 ## About
-Dual Universe script to show dispenser item, price, batch and stock information on one screen
+Dual Universe script to show dispenser item, price, batch and stock information on one screen. <br/>
+Usefull for any shop to update stock information on enter shop area (detection zone) or after dispenser give away.
 <br/><br/>
 
 ## Credits
@@ -21,13 +22,14 @@ Dual Universe script to show dispenser item, price, batch and stock information 
 
 ## Prerequisite
 **Mandatory**
-* 1 Programming Board to connect up to 5 screens and 5 containers
-* 1 Screen per item to be provided by dispenser
-* 1 Container per item to be provided by dispenser
+1. 1 Programming Board to connect up to 5 screens and 5 containers
+1. 1 Screen per item to be provided by dispenser
+1. 1 Container per item to be provided by dispenser
 <br/><br/>
 
 **Optional**
-If you like to have a simple monitoring screen, you can only present 4 items (4 screens + 4 containers = 8 slots) per programming board.
+1. Detection Zone XS to L connected to a Relay element for automatic activation of programming boards
+1. Additional screen, if you like to have a simple monitoring screen, you can only present 4 items (4 screens + 4 containers = 8 slots) per programming board.<br/>
 To use monitoring screen, just connect it to the programming board and name the slot to "screenMonitor"
 <br/><br/>
 
