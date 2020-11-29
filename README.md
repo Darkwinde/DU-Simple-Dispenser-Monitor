@@ -94,14 +94,14 @@ items =
         ["batch"] = true,
         ["batchSize"] = 10,
         ["special"] = false,
-        ["specialText"] = "Black Friday",
+        ["specialText"] = "",
         ["screenSlotName"] = "screenRGAA_XS",
         ["containerSlotName"] = "containerRGAA_XS",
     }
 }
 ```
+<br/><br/>
 
 ## Remarks
-1. A full item list is under creation, but already wanted to share the script. 
-Any help appriciated to get the full item list and mass collection :) feel free to contribute.
+* If you see any failurs, bugs or have any kind of recommandation, feel free to contribute. :)
 <br/><br/>

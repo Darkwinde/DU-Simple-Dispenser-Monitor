@@ -18,14 +18,14 @@ items =
         ["price"] = 120000,
         ["batch"] = false,
         ["batchSize"] = 1,
-        ["special"] = true,
+        ["special"] = false,
         ["specialText"] = "Black Friday",
         ["screenSlotName"] = "screenTransferUnit",
         ["containerSlotName"] = "containerTransferUnit",
     },
     ["Railgun Antimatter Ammo XS"] = 
     {
-        ["price"] = 99999,
+        ["price"] = 500,
         ["batch"] = true,
         ["batchSize"] = 10,
         ["special"] = false,
@@ -38,9 +38,9 @@ items =
 
 
 
-items = 
+items =
 {
-    ["Transfer Unit"] = 
+    ["Transfer Unit"] =
     {
         ["price"] = 100000,
         ["batch"] = false,

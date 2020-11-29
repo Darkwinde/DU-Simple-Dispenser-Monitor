@@ -10,7 +10,6 @@ for itemName, itemParameters in pairs(items) do
         then 
         system.printDanger("Item parameter definition not correct. Please check: " .. itemName)
     else
-
         -- Get screen and container element object
         screen = getElementObject(itemParameters["screenSlotName"])
         container = getElementObject(itemParameters["containerSlotName"])
@@ -33,7 +32,7 @@ end
 -- A screen to monitor the stacks and prices
 if screenMonitor ~= nil then
     local monitorHTML = {}
-    
+
     for itemName, itemParameters in pairs(items) do
         container = getElementObject(itemParameters["containerSlotName"])
         itemMass = getItemInformation(itemName, "mass")
