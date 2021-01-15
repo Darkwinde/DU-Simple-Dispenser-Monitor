@@ -40,15 +40,45 @@ items =
 
 items =
 {
-    ["Transfer Unit"] =
+    ["Container XS"] =
     {
-        ["price"] = 100000,
+        ["price"] = 20000,
+        ["batch"] = true,
+        ["batchSize"] = 10,
+        ["special"] = false,
+        ["specialText"] = "Black Friday",
+        ["screenSlotName"] = "s_containerXS",
+        ["containerSlotName"] = "c_containerXS",
+    },
+    ["Container S"] =
+    {
+        ["price"] = 55000,
+        ["batch"] = true,
+        ["batchSize"] = 5,
+        ["special"] = false,
+        ["specialText"] = "Black Friday",
+        ["screenSlotName"] = "s_containerS",
+        ["containerSlotName"] = "c_containerS",
+    },
+    ["Container M"] =
+    {
+        ["price"] = 60000,
         ["batch"] = false,
         ["batchSize"] = 1,
-        ["special"] = true,
+        ["special"] = false,
         ["specialText"] = "Black Friday",
-        ["screenSlotName"] = "screenTransferUnit",
-        ["containerSlotName"] = "containerTransferUnit",
+        ["screenSlotName"] = "s_containerM",
+        ["containerSlotName"] = "c_containerM",
+    },
+    ["Container L"] =
+    {
+        ["price"] = 125000,
+        ["batch"] = false,
+        ["batchSize"] = 1,
+        ["special"] = false,
+        ["specialText"] = "Black Friday",
+        ["screenSlotName"] = "s_containerL",
+        ["containerSlotName"] = "c_containerL",
     }
 }
 

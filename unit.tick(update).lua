@@ -8,18 +8,18 @@ for itemName, itemParameters in pairs(items) do
         itemParameters["special"] == nil or itemParameters["specialText"] == nil or
         itemParameters["screenSlotName"] == nil or itemParameters["containerSlotName"] == nil 
         then 
-        system.printDanger("Item parameter definition not correct. Please check: " .. itemName)
+        system.print("Item parameter definition not correct. Please check: " .. itemName)
     else
         -- Get screen and container element object
         screen = getElementObject(itemParameters["screenSlotName"])
         container = getElementObject(itemParameters["containerSlotName"])
 
-        -- Get item mass
-        itemMass = getItemInformation(itemName, "mass")
+        -- Get item volume
+        itemVolume = getItemInformation(itemName, "volume")
 
-        if screen ~= nil and container ~= nil and itemMass ~= nil then
+        if screen ~= nil and container ~= nil and itemVolume ~= nil then
             -- Get amount from container by mass reference
-            amount = round(container.getItemsMass() / itemMass)
+            amount = round(container.getItemsVolume() / itemVolume)
 
             screen.clear()
             screen.setHTML(table.concat(getHTMLBody(itemName, format_number(itemParameters["price"]), amount, itemParameters["batch"], itemParameters["batchSize"], itemParameters["special"], itemParameters["specialText"]), ""))

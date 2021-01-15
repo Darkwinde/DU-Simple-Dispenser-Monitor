@@ -4,7 +4,6 @@ Usefull for any shop to update stock information on enter shop area (detection z
 <br/><br/>
 
 ## Credits
-* Colored system console message from Jericho1060 (https://github.com/Jericho1060/du-storage-monitoring)
 * Format number function to make price values look nice (http://richard.warburton.it)
 <br/><br/>
 
