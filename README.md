@@ -1,9 +1,10 @@
 ## About
 Dual Universe script to show dispenser item, price, batch and stock information on one screen. <br/>
-Usefull for any shop to update stock information on enter shop area (detection zone) or after dispenser give away.
+Useful for any shop to update stock information on enter shop area (detection zone) or after dispenser give away.
 <br/><br/>
 
 ## Credits
+* Item list powered by Jericho1060 (https://github.com/Jericho1060/du-storage-monitoring)
 * Format number function to make price values look nice (http://richard.warburton.it)
 <br/><br/>
 
@@ -52,17 +53,17 @@ Example for the file "library.start.lua":<br/>
     1. To select event filter type, click on three dots on the left side of the draft event and select "start".
     1. The draft event changes to "start()" 
 1. Click into the right field and past content from clipboard by pressing "CTRL+V".
-1. Do the same process with every further "*.lua" file. Important to note, that you can define multiple filter targeting same event, e.g. the "start()". They will be processed all one by one; so do noty worry about :)
+1. Do the same process with every further "*.lua" file. Important to note, that you can define multiple filter targeting same event, e.g. the "start()". They will be processed all one by one; so do not worry about :)
 1. Then you finished, do not forget set press "APPLY" to confirm changes.
 <br/><br/>
 
 **Item Configuration** 
 <br/>
-Setting up the screens you want to provide by dispensers is quite simpel. 
-Nevertheless, it is recommanded to connect 1 screen and 1 container after another. Rename the slots in the LUA editor, so that it can be easily identified.
+Setting up the screens you want to provide by dispensers is quite simple. 
+Nevertheless, it is recommended to connect 1 screen and 1 container after another. Rename the slots in the LUA editor, so that it can be easily identified.
 <br/>
 
-1. Rename the element slots (left side LUA editor) to something usefull...
+1. Rename the element slots (left side LUA editor) to something useful...
     1. example: Railgun XS, I personally use "screenRG_XS" and "containerRG_XS" 
     1. example: Transfer Unit, I personally use "screenTransferUnit" and "containerTransferUnit".
 1. Define up to 5 items you want to sell in the "items" array by the given schema
